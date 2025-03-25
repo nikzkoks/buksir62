@@ -39,7 +39,11 @@ header {
   font-weight: bold;
   color: #ff9900;
 }
-
+.telephone {
+  font-size: 42px;
+  font-weight: bold;
+  color: #ff9900;
+}
 .logo span {
   color: #fff;
 }
@@ -226,11 +230,8 @@ nav ul li a:hover {
 
 .contact-container {
   display: flex;
+  justify-content: center;
   gap: 50px;
-}
-
-.contact-info {
-  flex: 1;
 }
 
 .contact-info h3 {
