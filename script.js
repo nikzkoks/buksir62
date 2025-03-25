@@ -4,17 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const dotsContainer = document.querySelector(".slider-dots");
   const prevBtn = document.querySelector(".prev");
   const nextBtn = document.querySelector(".next");
-  const serviceCard = document.querySelector(".service-card");
 
   let currentIndex = 0;
   const slideCount = slides.length;
 
-  // При клике на карту услуг
-  serviceCard.forEach(
-    addEventListener("click", () => {
-      window.open("tel:+79966165509");
-    }),
-  );
   // Создаем точки для навигации
   slides.forEach((_, index) => {
     const dot = document.createElement("div");
